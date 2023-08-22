@@ -8,7 +8,7 @@
 - eval "$(ssh-agent -s)"
 
 # Add the Private Key to the SSH Agent:
-- ssh-add /path/to/vinod_2023_june.pem
+- ssh-add vinod_2023_june.pem
 
 
 When you run ssh -i vinod_2023_june.pem ec2-user@172.31.19.110, you are explicitly specifying the identity file (vinod_2023_june.pem) using the -i flag. 
